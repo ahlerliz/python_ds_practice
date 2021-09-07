@@ -40,6 +40,6 @@ def calculate(operation, a, b, make_int=False, message='The result is'):
         return None
     
     if make_int is True:
-        result = result // 1
+        result = int(result)
     
     return f"{message} {result}"
