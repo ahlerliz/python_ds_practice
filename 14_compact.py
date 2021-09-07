@@ -11,8 +11,10 @@ def compact(lst):
     #         lst.remove(ele)
     # return ele is False
 
-    new_list = []
-    for ele in lst:
-        if ele:
-            new_list.append(ele)
-    return new_list
+    # new_list = []
+    # for ele in lst:
+    #     if ele:
+    #         new_list.append(ele)
+    # return new_list
+
+    return [ele for ele in lst if ele]

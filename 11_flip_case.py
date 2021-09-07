@@ -24,3 +24,5 @@ def flip_case(phrase, to_swap):
         else:
             flipped += letter
     return flipped
+
+    # swapcase() can be used
